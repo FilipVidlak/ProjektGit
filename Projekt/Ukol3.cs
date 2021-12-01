@@ -31,11 +31,11 @@ namespace Projekt
 
                 double vysledek = ((double)cislo1 + (double)cislo2 + (double)cislo3) / 3;
 
-                MessageBox.Show("Aritmetrický průměr čísel v textBoxech je " + Math.Round(vysledek,2), "Výsledek");
+                MessageBox.Show("Aritmetrický průměr čísel je " + Math.Round(vysledek,2), "Výsledek", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch
             {
-                MessageBox.Show("Musíš vybrat prvek v listBoxu a zadat hodnoty čísel!", "Error");
+                MessageBox.Show("Musíš zadat číslo!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

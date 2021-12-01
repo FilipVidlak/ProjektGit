@@ -37,7 +37,7 @@ namespace Projekt
                 textBox2.Text = Convert.ToString(cislo2);
                 textBox3.Text = Convert.ToString(cislo3);
             }
-            catch { MessageBox.Show("Nastalala chyba!", "Error"); }
+            catch { MessageBox.Show("Chyba!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         }
 
         private void Ukol4_Load(object sender, EventArgs e)
@@ -51,6 +51,11 @@ namespace Projekt
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
