@@ -14,7 +14,7 @@ namespace Projekt
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent();//zkontrovano
         }
 
         private void button1_Click(object sender, EventArgs e)
