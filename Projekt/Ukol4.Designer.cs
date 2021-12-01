@@ -41,9 +41,10 @@
             // 
             // vypocitat
             // 
-            this.vypocitat.Location = new System.Drawing.Point(12, 36);
+            this.vypocitat.Location = new System.Drawing.Point(16, 44);
+            this.vypocitat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.vypocitat.Name = "vypocitat";
-            this.vypocitat.Size = new System.Drawing.Size(75, 23);
+            this.vypocitat.Size = new System.Drawing.Size(100, 28);
             this.vypocitat.TabIndex = 5;
             this.vypocitat.Text = "Vypočítat";
             this.vypocitat.UseVisualStyleBackColor = true;
@@ -55,41 +56,46 @@
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(140, 12);
+            this.panel1.Location = new System.Drawing.Point(187, 15);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(114, 100);
+            this.panel1.Size = new System.Drawing.Size(152, 123);
             this.panel1.TabIndex = 4;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(7, 74);
+            this.textBox3.Location = new System.Drawing.Point(9, 91);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.Size = new System.Drawing.Size(132, 22);
             this.textBox3.TabIndex = 3;
             this.textBox3.Text = "11";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(7, 48);
+            this.textBox2.Location = new System.Drawing.Point(9, 59);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.Size = new System.Drawing.Size(132, 22);
             this.textBox2.TabIndex = 2;
             this.textBox2.Text = "26";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(7, 24);
+            this.textBox1.Location = new System.Drawing.Point(9, 30);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(132, 22);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "3";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 7);
+            this.label1.Location = new System.Drawing.Point(5, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 13);
+            this.label1.Size = new System.Drawing.Size(61, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "mocnina";
             // 
@@ -101,21 +107,23 @@
             "3",
             "4",
             "5"});
-            this.comboBox1.Location = new System.Drawing.Point(12, 12);
+            this.comboBox1.Location = new System.Drawing.Point(16, 15);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(160, 24);
             this.comboBox1.TabIndex = 3;
             // 
             // Ukol4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(265, 124);
+            this.ClientSize = new System.Drawing.Size(353, 153);
             this.Controls.Add(this.vypocitat);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.comboBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Ukol4";
             this.Text = "Ukol4";

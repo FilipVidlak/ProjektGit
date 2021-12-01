@@ -14,14 +14,7 @@ namespace Projekt
     {
         public Ukol2()
         {
-            /*
-            Při spuštění programu vygenerujte do ListBox 10 celých čísel z intervalu 0..10 včetně.
-            Umožněte uživateli vícenásobný výběr položky (ve vlastnostech ListBox –
-            SelectionMode:MultiExtended).
-            Při každé změně výběru položek v ListBox bude v label1 zapsán počet všech vybraných
-            položek a v label2 součet všech vybraných položek.
-             
-             */
+        
             InitializeComponent();
         }
 
